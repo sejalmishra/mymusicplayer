@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mymusicplayer/static/css/main.a5358b73.css",
+    "main.js": "/mymusicplayer/static/js/main.364c0299.js",
+    "static/media/morning-garden-acoustic-chill-15013.mp3": "/mymusicplayer/static/media/morning-garden-acoustic-chill-15013.87ba41f318d955cede1e.mp3",
+    "static/media/the-cradle-of-your-soul-15700.mp3": "/mymusicplayer/static/media/the-cradle-of-your-soul-15700.b67483d0cf4f00dfba9c.mp3",
+    "static/media/goodbye-stress-calming-acoustic-guitar-instrumental-background-music-for-videos-5714.mp3": "/mymusicplayer/static/media/goodbye-stress-calming-acoustic-guitar-instrumental-background-music-for-videos-5714.91576495b5bc34ccb87d.mp3",
+    "static/media/where-the-light-is-15702.mp3": "/mymusicplayer/static/media/where-the-light-is-15702.9f4e47085f3bc591dadb.mp3",
+    "static/media/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3": "/mymusicplayer/static/media/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.1f262a0a7b74321f8fcf.mp3",
+    "static/media/acoustic-motivation-11290.mp3": "/mymusicplayer/static/media/acoustic-motivation-11290.96fb2b659d4b9e07f27f.mp3",
+    "static/media/wisdom-of-the-mountains-13411.mp3": "/mymusicplayer/static/media/wisdom-of-the-mountains-13411.de06e0e2793d8762a14f.mp3",
+    "static/media/heart.png": "/mymusicplayer/static/media/heart.59848f4811a23aa759c3.png",
+    "static/media/previous.png": "/mymusicplayer/static/media/previous.618ff2c425b25ddbdfe0.png",
+    "static/media/share.png": "/mymusicplayer/static/media/share.d3ce57880cfa89bef430.png",
+    "static/media/love.png": "/mymusicplayer/static/media/love.bf2e642ba8736cc4acdc.png",
+    "index.html": "/mymusicplayer/index.html",
+    "main.a5358b73.css.map": "/mymusicplayer/static/css/main.a5358b73.css.map",
+    "main.364c0299.js.map": "/mymusicplayer/static/js/main.364c0299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5358b73.css",
+    "static/js/main.364c0299.js"
+  ]
+}
