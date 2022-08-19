@@ -112,6 +112,7 @@ function App({tracks}) {
   return (
     <div className="music-player">
     <div className='imgdiv'>
+helloooooooo
     </div>
     <div className='artist-info'>
     </div>
