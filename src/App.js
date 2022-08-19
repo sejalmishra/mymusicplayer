@@ -112,7 +112,6 @@ function App({tracks}) {
   return (
     <div className="music-player">
     <div className='imgdiv'>
-    <img src={image} alt={`Music by ${artist} from Pixabay`} className="images"/>
     </div>
     <div className='artist-info'>
     </div>
