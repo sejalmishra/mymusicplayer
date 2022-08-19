@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import  Next  from "./assets/next-track.png";
 import  Previous  from "./assets/previous.png";
 import  play  from "./assets/play-buton.png";
@@ -8,7 +8,7 @@ import love from "./assets/love.png";
 import heart from "./assets/heart.png";
 
 const AudioButtons = ({ isPlaying, liked, toPrevious, toNext, onPlayPause, link, storeSong  }) => {
-    return(
+    return( 
     <div class="btns">
     <div className="btndiv">
      {liked? 

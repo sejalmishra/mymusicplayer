@@ -15,10 +15,10 @@ function App({tracks}) {
   const isReady = useRef(false);
   const { duration } = audioRef.current;
 
-  const currentPercentage = duration ? `${(trackProgress / duration) * 100}%` : '0%';
-const trackStyling = `
-  -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(${currentPercentage}, #fff), color-stop(${currentPercentage}, #777))
-`;
+//   const currentPercentage = duration ? `${(trackProgress / duration) * 100}%` : '0%';
+// const trackStyling = `
+//   -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(${currentPercentage}, #fff), color-stop(${currentPercentage}, #777))
+// `; 
 
   const startTimer = () => {
     clearInterval(intervalRef.current);
@@ -68,7 +68,6 @@ const trackStyling = `
   },[trackIndex]);
 
   const onScrub = (value) => {
-    console.log("confuse");
     clearInterval(intervalRef.current);
     audioRef.current.currentTime = value;
     setTrackProgress(audioRef.current.currentTime);
@@ -116,11 +115,9 @@ const trackStyling = `
     <img src={image} alt={`Music by ${artist} from Pixabay`} className="images"/>
     </div>
     <div className='artist-info'>
-    <h2>{title}</h2>
-    <h3>{artist}</h3>
     </div>
     {"00:00" && <h4 class="top">0{Math.floor(trackProgress/60)} : {Math.floor(trackProgress%60)<10 ? `0${Math.floor(trackProgress)%60}`: Math.floor(trackProgress)%60}</h4>}
-    <input type="range" value={trackProgress} step="1" min="0" max={duration ? duration : `${duration}`} onChange={(e) => onScrub(e.target.value)} onMouseUp={onScrubEnd} style={{background: trackStyling}}
+    <input type="range" value={trackProgress} step="1" min="0" max={duration ? duration : `${duration}`} onChange={(e) => onScrub(e.target.value)} onMouseUp={onScrubEnd} 
         onKeyUp={onScrubEnd}/> 
     {duration? <h4 class="bottom">0{Math.floor(duration/60)} : {Math.floor(duration%60)}</h4> : <h4 class="bottom">00:00</h4>}
     <div className='audiobtndiv'>
